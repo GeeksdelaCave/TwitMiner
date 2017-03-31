@@ -17,5 +17,5 @@ cycle de vie du logiciel, et Travis CI pour vérifier l'état sain du code produ
 
 ## Auteurs
 
-- Tristan **Dietz**
-- Thomas **Peyre**
+- Tristan Dietz
+- Thomas Peyre
