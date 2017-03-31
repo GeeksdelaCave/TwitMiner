@@ -1,19 +1,32 @@
 package fr.univ_amu.iut.twitminer;
 
-import twitter4j.Status;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
-import twitter4j.TwitterFactory;
+import twitter4j.*;
+
+import java.io.*;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Salam aëlekoum world!");
-
-        Twitter twitter = TwitterFactory.getSingleton();
         try {
-            Status status = twitter.updateStatus("Salut ! Ça va ?");
-            System.out.println("Successfully updated the status to [" + status.getText() + "].");
-        } catch (TwitterException e) {
+            Twitter twitter = new TwitterFactory().getInstance();
+            BufferedReader clavier = new BufferedReader(new InputStreamReader(System.in));
+            BufferedWriter fichier = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File("resultats.csv"))));
+            Query query = new Query(clavier.readLine());
+            QueryResult result;
+            do {
+                result = twitter.search(query);
+                List<Status> tweets = result.getTweets();
+                for (Status tweet : tweets) {
+                    fichier.write("\"" + tweet.getCreatedAt().toString() + "\";\"@" + tweet.getUser().getScreenName() + "\";\"" + tweet.getText());
+                    fichier.newLine();
+                }
+            } while ((query = result.nextQuery()) != null);
+            System.exit(0);
+        } catch (TwitterException te) {
+            te.printStackTrace();
+            System.out.println("Failed to search tweets: " + te.getMessage());
+            System.exit(-1);
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
