@@ -35,7 +35,7 @@ cycle de vie du logiciel, et Travis CI pour vérifier l'état sain du code produ
 
 ## Changelog
 
-- Rien pour le moment...
+- Phase 0 terminée (création d'un fichier contenant les tweets)
 
 ## Auteurs
 
