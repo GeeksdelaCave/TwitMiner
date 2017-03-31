@@ -15,19 +15,19 @@ cycle de vie du logiciel, et Travis CI pour vérifier l'état sain du code produ
 
 ### Paramètres d'application
 
-- Consumer Key (API Key) PC9eZ1UKesfraTg9TlUSOKQRu
-- Consumer Secret (API Secret) 41wqru1t0wDJAT25gwZYWNRnZ9zztD0KCzrILkPhAcncIMykjL
-- Access Level Read, write, and direct messages (modify app permissions)
-- Owner twit_miner
-- Owner ID 847779724424347648
+- Consumer Key (API Key) : PC9eZ1UKesfraTg9TlUSOKQRu
+- Consumer Secret (API Secret) : 41wqru1t0wDJAT25gwZYWNRnZ9zztD0KCzrILkPhAcncIMykjL
+- Access Level : Read, write, and direct messages (modify app permissions)
+- Owner : twit_miner
+- Owner ID : 847779724424347648
 
 ### Jetons d'accès
 
-- Access Token 847779724424347648-6gJuP6y7hJJy2I3eTvKeM7TtQpx7T3d
-- Access Token Secret s6pok6HKpOFVA2nDAhk0FVNnuPETc5dd11KUGp8E3a5cY
-- Access Level Read and write
-- Owner twit_miner
-- Owner ID 847779724424347648
+- Access Token : 847779724424347648-6gJuP6y7hJJy2I3eTvKeM7TtQpx7T3d
+- Access Token : Secret s6pok6HKpOFVA2nDAhk0FVNnuPETc5dd11KUGp8E3a5cY
+- Access Level : Read and write
+- Owner : twit_miner
+- Owner ID : 847779724424347648
 
 ## Changelog
 
