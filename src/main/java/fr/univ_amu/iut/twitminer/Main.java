@@ -1,6 +1,5 @@
 package fr.univ_amu.iut.twitminer;
 
-
 import twitter4j.*;
 
 import java.io.*;
