@@ -1,11 +1,6 @@
 package fr.univ_amu.iut.twitminer;
 
-import twitter4j.*;
-
-import java.io.*;
-import java.util.List;
-
-import static fr.univ_amu.iut.twitminer.twitGetter.getTwits;
+import static fr.univ_amu.iut.twitminer.TwitGetter.getTwits;
 
 
 public class Main {

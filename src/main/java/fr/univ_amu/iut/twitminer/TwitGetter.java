@@ -5,7 +5,7 @@ import twitter4j.*;
 import java.io.*;
 import java.util.List;
 
-public class twitGetter {
+public class TwitGetter {
     public static void getTwits() {
         try {
             Twitter twitter = new TwitterFactory().getInstance();
