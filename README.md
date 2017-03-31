@@ -11,6 +11,14 @@ cycle de vie du logiciel, et Travis CI pour vérifier l'état sain du code produ
 
 - [![Build Status](https://travis-ci.org/GeeksdelaCave/TwitMiner.svg?branch=master)](https://travis-ci.org/GeeksdelaCave/TwitMiner) master
 
+## Accès Twitter
+
+- Access Token 847779724424347648-6gJuP6y7hJJy2I3eTvKeM7TtQpx7T3d
+- Access Token Secret s6pok6HKpOFVA2nDAhk0FVNnuPETc5dd11KUGp8E3a5cY
+- Access Level Read and write
+- Owner twit_miner
+- Owner ID 847779724424347648
+
 ## Changelog
 
 - Rien pour le moment...
