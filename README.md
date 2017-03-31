@@ -31,7 +31,11 @@ cycle de vie du logiciel, et Travis CI pour vérifier l'état sain du code produ
 
 ### Arguments de VM Java :
 
-``-Dtwitter4j.debug=true -Dtwitter4j.oauth.consumerKey=PC9eZ1UKesfraTg9TlUSOKQRu -Dtwitter4j.oauth.consumerSecret=41wqru1t0wDJAT25gwZYWNRnZ9zztD0KCzrILkPhAcncIMykjL -Dtwitter4j.oauth.accessToken=847779724424347648-6gJuP6y7hJJy2I3eTvKeM7TtQpx7T3d -Dtwitter4j.oauth.accessTokenSecret=s6pok6HKpOFVA2nDAhk0FVNnuPETc5dd11KUGp8E3a5cY``
+``-Dtwitter4j.debug=true \
+-Dtwitter4j.oauth.consumerKey=PC9eZ1UKesfraTg9TlUSOKQRu \
+-Dtwitter4j.oauth.consumerSecret=41wqru1t0wDJAT25gwZYWNRnZ9zztD0KCzrILkPhAcncIMykjL \
+-Dtwitter4j.oauth.accessToken=847779724424347648-6gJuP6y7hJJy2I3eTvKeM7TtQpx7T3d \
+-Dtwitter4j.oauth.accessTokenSecret=s6pok6HKpOFVA2nDAhk0FVNnuPETc5dd11KUGp8E3a5cY``
 
 ## Changelog
 
