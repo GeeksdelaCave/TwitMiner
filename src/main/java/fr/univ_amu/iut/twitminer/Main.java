@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             Twitter twitter = new TwitterFactory().getInstance();
+            System.out.println("Please tpye your searching expression: ");
             BufferedReader clavier = new BufferedReader(new InputStreamReader(System.in));
             BufferedWriter fichier = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File("resultats.csv"))));
             Query query = new Query(clavier.readLine());
