@@ -1,0 +1,23 @@
+# Script pour Travis-CI
+
+# Définition du langage sur Java
+language: java
+
+# Désactivation du sudo pour le script qui suit : les conteneurs Travis-CI ne le prennent pas en compte
+sudo: false
+
+# Commandes MAVEN demandées à Travis-CI
+script:
+  - mvn validate
+  - mvn compile
+  - mvn test
+  - mvn verify
+
+# Branches à ajouter à la compilation
+branches:
+  only:
+  - master
+
+# Spécification des JDK avec lesquels compiler
+jdk:
+  - oraclejdk8
