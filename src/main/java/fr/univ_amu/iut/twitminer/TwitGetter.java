@@ -13,7 +13,7 @@ public class TwitGetter {
             BufferedWriter fichier = new BufferedWriter(new FileWriter("resultats.csv",true));
 
             Query query = new Query(clavier.readLine());
-            query.setCount(10);
+            query.setCount(180);
             QueryResult result;
 
             do {
