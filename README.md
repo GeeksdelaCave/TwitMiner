@@ -9,7 +9,7 @@ cycle de vie du logiciel, et Travis CI pour vérifier l'état sain du code produ
 
 ## Builds
 
-- [![Build Status](https://travis-ci.org/GeeksdelaCave/TwitMiner.svg?branch=master)](https://travis-ci.org/GeeksdelaCave/TwitMiner) master
+- [![Build Status](https://travis-ci.com/GeeksdelaCave/TwitMiner.svg?token=DbBJmzHop5opuLRphgPC&branch=master)](https://travis-ci.com/GeeksdelaCave/TwitMiner) master
 
 ## Accès Twitter
 
