@@ -8,7 +8,7 @@ import java.util.List;
 public class TwitGetter {
     public static void getTwits() {
         try {
-            Twitter twitter = new TwitterFactory().getInstance();
+            twitter4j.Twitter twitter = new TwitterFactory().getInstance();
             BufferedReader clavier = new BufferedReader(new InputStreamReader(System.in));
             BufferedWriter fichier = new BufferedWriter(new FileWriter("resultats.csv",true));
 
@@ -21,6 +21,7 @@ public class TwitGetter {
                 List<Status> tweets = result.getTweets();
                 for (Status tweet : tweets) {
                     fichier.write("\"" + tweet.getCreatedAt().toString()
+                            + "\";\"" + new GeoLocalisation(tweet.getGeoLocation().getLatitude(), tweet.getGeoLocation().getLongitude())
                             + "\";\"@" + tweet.getUser().getScreenName()
                             + "\";\"" +  tweet.getText().replace(" ","\";\"").replace("\n"," "));
                     fichier.write("\";");
