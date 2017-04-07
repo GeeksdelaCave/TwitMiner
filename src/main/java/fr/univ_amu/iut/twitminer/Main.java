@@ -3,14 +3,13 @@ package fr.univ_amu.iut.twitminer;
 import static fr.univ_amu.iut.twitminer.AprioriInterface.apriori;
 import static fr.univ_amu.iut.twitminer.Converter.CSVtoTrans;
 import static fr.univ_amu.iut.twitminer.Converter.decodeTrans;
-import static fr.univ_amu.iut.twitminer.TwitGetter.getTwits;
 
 
 public class Main {
     public static void main(String[] args) {
-        getTwits();
+        //getTwits();
         CSVtoTrans("resultats.csv");
-        apriori("twit.trans","out.txt",1);
+        apriori("twit.trans","out.txt",50);
         decodeTrans("./out.txt");
     }
 }
