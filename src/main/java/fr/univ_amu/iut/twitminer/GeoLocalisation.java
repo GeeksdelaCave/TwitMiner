@@ -24,7 +24,7 @@ public class GeoLocalisation {
         try {
             URL website = new URL("http://ws.geonames.org/countryCodeJSON?lat="
                     + latitude + "&lng="
-                    + longitude + "&username=demo");
+                    + longitude + "&username=trito");
             URLConnection connection = website.openConnection();
             BufferedReader in = new BufferedReader(
                     new InputStreamReader(
