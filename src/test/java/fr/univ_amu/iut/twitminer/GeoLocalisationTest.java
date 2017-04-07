@@ -2,8 +2,6 @@ package fr.univ_amu.iut.twitminer;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
-
 public class GeoLocalisationTest {
 
     @Test
